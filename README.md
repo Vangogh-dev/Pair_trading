@@ -2,20 +2,20 @@
 
 Ce projet a été développé dans le cadre d'une initiative personnelle en école de commerce avec pour objectif de modéliser, backtester et visualiser une stratégie de **pair trading sur options**. Il s'adresse à un public avec un intérêt pour la **finance quantitative**, les **produits dérivés** et le **développement Python appliqué à la finance**.
 
-## 🔍 Objectifs
+##  Objectifs
 - Sélectionner dynamiquement des paires d'actifs fortement corrélés
 - Simuler ou importer les prix d'options de ces actifs
 - Appliquer une stratégie de **mean reversion** sur le spread des options
 - Backtester les performances et analyser les résultats (PnL, Sharpe, Drawdown)
 - Visualiser l'ensemble de manière interactive avec **Streamlit**
 
-## 🧰 Technologies
+##  Technologies
 - **Python 3.9+**
 - `pandas`, `numpy`, `matplotlib`, `plotly`, `scipy`, `statsmodels`
 - `yfinance` pour les données des sous-jacents
 - `streamlit` pour l'interface utilisateur
 
-## 🗂 Structure du projet
+##  Structure du projet
 
 ```
 📁 pair-trading-options
@@ -25,7 +25,7 @@ Ce projet a été développé dans le cadre d'une initiative personnelle en éco
 └── requirements.txt            # Dépendances Python
 ```
 
-## 🚀 Lancer l'application
+##  Lancer l'application
 
 ### 1. Installation des dépendances
 ```bash
