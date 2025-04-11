@@ -50,9 +50,6 @@ streamlit run pair_trading_app.py
 - **Taux de succès des trades**
 - **Nombre de signaux générés**
 
-##  Données
-Les prix d'options sont **simulés** par une marche aléatoire, faute d'accès gratuit et stable à des APIs professionnelles. Toutefois, le script est modulaire pour intégrer de vraies données si disponibles.
-
 ##  Améliorations futures
 - Intégration de données réelles via une API professionnelle (Bloomberg incoming)
 - Ajout d'une couche Machine Learning pour la génération des signaux
